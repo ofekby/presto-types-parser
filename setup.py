@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     
 setuptools.setup(
     name="presto-types-parser",
-    version="0.0.1",
+    version="0.0.2",
     author="Ofek Ben-Yaish",
     description="Presto types parser for input rows returned by presto rest api",
     license="Apache License, Version 2.0",
