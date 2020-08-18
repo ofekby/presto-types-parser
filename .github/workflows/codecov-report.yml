@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install setuptools wheel pytest-cov
+          pip install setuptools wheel pytest-cov pytest mock
       - name: Run tests
         run: py.test --cov-report=xml --cov=presto_types_parser presto_types_parser/
       - name: Codecov
